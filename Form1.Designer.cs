@@ -35,6 +35,15 @@
             dataGridView1 = new DataGridView();
             comboBox2 = new ComboBox();
             button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkedListBox2 = new CheckedListBox();
+            checkBox4 = new CheckBox();
+            checkedListBox3 = new CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -98,11 +107,103 @@
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            button4.Location = new Point(627, 153);
+            button4.Name = "button4";
+            button4.Size = new Size(94, 29);
+            button4.TabIndex = 7;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(346, 2);
+            button5.Name = "button5";
+            button5.Size = new Size(94, 29);
+            button5.TabIndex = 8;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(407, 34);
+            button6.Name = "button6";
+            button6.Size = new Size(94, 29);
+            button6.TabIndex = 9;
+            button6.Text = "button6";
+            button6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(374, 66);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(101, 24);
+            checkBox1.TabIndex = 10;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(480, 15);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(101, 24);
+            checkBox2.TabIndex = 11;
+            checkBox2.Text = "checkBox2";
+            checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(311, 141);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(101, 24);
+            checkBox3.TabIndex = 12;
+            checkBox3.Text = "checkBox3";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkedListBox2
+            // 
+            checkedListBox2.FormattingEnabled = true;
+            checkedListBox2.Location = new Point(597, 64);
+            checkedListBox2.Name = "checkedListBox2";
+            checkedListBox2.Size = new Size(150, 114);
+            checkedListBox2.TabIndex = 13;
+            // 
+            // checkBox4
+            // 
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new Point(370, 108);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(101, 24);
+            checkBox4.TabIndex = 14;
+            checkBox4.Text = "checkBox4";
+            checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkedListBox3
+            // 
+            checkedListBox3.FormattingEnabled = true;
+            checkedListBox3.Location = new Point(364, 247);
+            checkedListBox3.Name = "checkedListBox3";
+            checkedListBox3.Size = new Size(150, 114);
+            checkedListBox3.TabIndex = 15;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(checkedListBox3);
+            Controls.Add(checkBox4);
+            Controls.Add(checkedListBox2);
+            Controls.Add(checkBox3);
+            Controls.Add(checkBox2);
+            Controls.Add(checkBox1);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(comboBox2);
             Controls.Add(dataGridView1);
@@ -114,6 +215,7 @@
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -125,5 +227,14 @@
         private DataGridView dataGridView1;
         private ComboBox comboBox2;
         private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckedListBox checkedListBox2;
+        private CheckBox checkBox4;
+        private CheckedListBox checkedListBox3;
     }
 }
