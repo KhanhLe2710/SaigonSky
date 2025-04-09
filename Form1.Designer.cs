@@ -51,6 +51,7 @@
             checkBox6 = new CheckBox();
             dataGridView2 = new DataGridView();
             checkBox7 = new CheckBox();
+            checkedListBox6 = new CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
@@ -262,11 +263,20 @@
             checkBox7.Text = "checkBox7";
             checkBox7.UseVisualStyleBackColor = true;
             // 
+            // checkedListBox6
+            // 
+            checkedListBox6.FormattingEnabled = true;
+            checkedListBox6.Location = new Point(398, 98);
+            checkedListBox6.Name = "checkedListBox6";
+            checkedListBox6.Size = new Size(150, 114);
+            checkedListBox6.TabIndex = 23;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(checkedListBox6);
             Controls.Add(checkBox7);
             Controls.Add(dataGridView2);
             Controls.Add(checkBox6);
@@ -323,5 +333,6 @@
         private CheckBox checkBox6;
         private DataGridView dataGridView2;
         private CheckBox checkBox7;
+        private CheckedListBox checkedListBox6;
     }
 }
