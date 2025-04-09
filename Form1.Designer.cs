@@ -31,6 +31,7 @@
             button1 = new Button();
             button2 = new Button();
             checkedListBox1 = new CheckedListBox();
+            comboBox1 = new ComboBox();
             SuspendLayout();
             // 
             // button1
@@ -59,11 +60,20 @@
             checkedListBox1.Size = new Size(150, 114);
             checkedListBox1.TabIndex = 2;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(493, 148);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(151, 28);
+            comboBox1.TabIndex = 3;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(comboBox1);
             Controls.Add(checkedListBox1);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -77,5 +87,6 @@
         private Button button1;
         private Button button2;
         private CheckedListBox checkedListBox1;
+        private ComboBox comboBox1;
     }
 }
