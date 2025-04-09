@@ -40,6 +40,7 @@
             button6 = new Button();
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -150,11 +151,22 @@
             checkBox2.Text = "checkBox2";
             checkBox2.UseVisualStyleBackColor = true;
             // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(311, 141);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(101, 24);
+            checkBox3.TabIndex = 12;
+            checkBox3.Text = "checkBox3";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(checkBox3);
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Controls.Add(button6);
@@ -188,5 +200,6 @@
         private Button button6;
         private CheckBox checkBox1;
         private CheckBox checkBox2;
+        private CheckBox checkBox3;
     }
 }
