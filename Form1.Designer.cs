@@ -32,6 +32,8 @@
             button2 = new Button();
             checkedListBox1 = new CheckedListBox();
             comboBox1 = new ComboBox();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -68,17 +70,28 @@
             comboBox1.Size = new Size(151, 28);
             comboBox1.TabIndex = 3;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(419, 293);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(300, 188);
+            dataGridView1.TabIndex = 4;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(dataGridView1);
             Controls.Add(comboBox1);
             Controls.Add(checkedListBox1);
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -88,5 +101,6 @@
         private Button button2;
         private CheckedListBox checkedListBox1;
         private ComboBox comboBox1;
+        private DataGridView dataGridView1;
     }
 }
