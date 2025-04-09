@@ -47,6 +47,7 @@
             button7 = new Button();
             checkBox5 = new CheckBox();
             checkedListBox4 = new CheckedListBox();
+            checkedListBox5 = new CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -220,11 +221,20 @@
             checkedListBox4.Size = new Size(150, 114);
             checkedListBox4.TabIndex = 18;
             // 
+            // checkedListBox5
+            // 
+            checkedListBox5.FormattingEnabled = true;
+            checkedListBox5.Location = new Point(205, 222);
+            checkedListBox5.Name = "checkedListBox5";
+            checkedListBox5.Size = new Size(150, 114);
+            checkedListBox5.TabIndex = 19;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(checkedListBox5);
             Controls.Add(checkedListBox4);
             Controls.Add(checkBox5);
             Controls.Add(button7);
@@ -272,5 +282,6 @@
         private Button button7;
         private CheckBox checkBox5;
         private CheckedListBox checkedListBox4;
+        private CheckedListBox checkedListBox5;
     }
 }
